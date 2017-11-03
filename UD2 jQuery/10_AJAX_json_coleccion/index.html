@@ -81,38 +81,12 @@
     <!-- Page Content -->
     <div class="container">
 
-      <h1 class="my-4">Listado Averías</h1>
+      <h1 class="my-4">Listado Talleres</h1>
+      <p>X-API-KEY: <input type="text" placeholder="API KEY" value="" id="apikey" /><input type="button" value="Guardar" id="btn-guardar-key" /></h2>
 
       <!-- Marketing Icons Section -->
-      <div class="row" id="listaNotas">
-        <!-- Card 1 -->
-        <div class="col-lg-4 mb-4 card-nota" id="3">
-          <div class="card h-100">
-            <h4 class="card-header titulo-card">Lista de la compra <span>Ocultar</span></h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-danger btn-eliminar">Eliminar</a>
-              <a href="#" class="btn btn-visibilidad ocultar">Ocultar</a>
-            </div>
-          </div>
-        </div>
-        <!-- /Card 1 -->
-        <!-- Card 2 -->
-        <div class="col-lg-4 mb-4 card-nota" id="3">
-          <div class="card h-100">
-            <h4 class="card-header titulo-card">Lista de la compra</h4>
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-danger btn-eliminar">Eliminar</a>
-              <a href="#" class="btn btn-visibilidad ocultar">Ocultar</a>
-            </div>
-          </div>
-        </div>
-        <!-- /Card 2 -->
+      <div class="row" id="listaTalleres">
+
 
       </div>
       <!-- /.row -->
@@ -142,23 +116,23 @@
 
 
     <!-- Modal -->
-<div class="modal fade" id="modalNuevaNota" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="modalEditarTaller" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Nueva nota</h4>
+        <h4 class="modal-title" id="myModalLabel">Editar taller</h4>
       </div>
       <div class="modal-body">
         <form>
           <div class="form-group">
-            <label for="message-text" class="control-label">Mensaje nota:</label>
-            <textarea class="form-control" id="texto-nueva-nota"></textarea>
+            <label for="message-text" class="control-label">Teléfono:</label>
+            <input type="text" class="form-control" id="telefono-taller" />
           </div>
         </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" id="btn-guardar-nota">Guardar nota</button>
+        <button type="button" class="btn btn-primary" id="btn-guardar-taller">Guardar taller</button>
       </div>
     </div>
   </div>
