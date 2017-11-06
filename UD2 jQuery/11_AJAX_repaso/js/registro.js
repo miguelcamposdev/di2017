@@ -22,6 +22,7 @@ $(document).on("click","#btnRegistro",function(){
 
     console.log(`${key}, ${nombre}, ${email}`);
 
+    localStorage.setItem("key",key);
     // Redirecciono al usuario a la página de inicio
     window.location.href = "index.html";
   })

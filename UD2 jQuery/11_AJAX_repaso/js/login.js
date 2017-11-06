@@ -1,5 +1,4 @@
 
-
 // 1. Definir evento click sobre el Botón de login
 
 $(document).on("click","#btnLogin",function(){
@@ -21,6 +20,7 @@ $(document).on("click","#btnLogin",function(){
 
     console.log(`${key}, ${nombre}, ${email}`);
 
+    localStorage.setItem("key",key);
     // Redirecciono al usuario a la página de inicio
     window.location.href = "index.html";
   })

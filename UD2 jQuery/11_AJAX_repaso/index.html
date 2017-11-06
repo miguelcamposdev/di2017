@@ -82,11 +82,24 @@
     <div class="container">
 
       <h1 class="my-4">Listado Talleres</h1>
-      <p>X-API-KEY: <input type="text" placeholder="API KEY" value="" id="apikey" /><input type="button" value="Guardar" id="btn-guardar-key" /></h2>
 
       <!-- Marketing Icons Section -->
-      <div class="row" id="listaTalleres">
+      <div class="row">
+        <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Nombre</th>
+                          <th>Lat,lng</th>
+                          <th>Dirección</th>
+                          <th>Teléfono</th>
+                          <th>Acciones</th>
+                        </tr>
+                      </thead>
+                      <tbody id="listadoTalleres">
 
+                      </tbody>
+                    </table>
 
       </div>
       <!-- /.row -->
@@ -141,7 +154,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="./main.js">
+    <script type="text/javascript" src="./js/main.js">
 
     </script>
 
