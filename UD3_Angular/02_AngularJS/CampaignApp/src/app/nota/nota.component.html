@@ -1,0 +1,14 @@
+<div class="col-lg-4 mb-4">
+  <div class="card-header">
+    <input type="text" [(ngModel)]="titulo" />
+  </div>
+
+  <div class="card-block">
+    <p *ngIf="titulo; else error">Muy bien has escrito un título. Yujuuuuuuu.</p>
+    <ng-template #error>
+      <p>Escribe algo miarma.</p>
+    </ng-template>
+
+    <button type="submit" class="btn btn-primary" *ngIf="titulo">Guardar</button>
+  </div>
+</div>
