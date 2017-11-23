@@ -1,0 +1,18 @@
+
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">Número</th>
+    <th scope="col">Producto</th>
+    <th scope="col">Descripción</th>
+    <th scope="col">Color</th>
+    <th scope="col">Talla</th>
+    <th scope="col">Cantidad</th>
+    <th scope="col">Importe</th>
+    <th scope="col">Eliminar</th>
+  </tr>
+  </thead>
+  <tbody>
+    <app-articulo *ngFor="let a of listaProductos" [articulo]="a"></app-articulo>
+  </tbody>
+</table>

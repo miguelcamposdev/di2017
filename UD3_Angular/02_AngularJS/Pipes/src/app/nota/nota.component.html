@@ -1,0 +1,26 @@
+
+
+<section class="row">
+  <div class="col-12">
+    <h3 class="mb-4">Notas</h3>
+  </div>
+
+  <!-- Nota -->
+  <div class="col-lg-4 mb-4" *ngFor="let nota of notas; index as i">
+    <div class="card-header">
+      <p>Posicion: {{i}}</p>
+      <input type="text" [(ngModel)]="nota.id" [ngStyle]="{color:getEstiloTitulo(nota)}" disabled="disabled"  />
+      <button type="button" class="btn btn-primary" (click)="incrementarNota(nota)">+</button>
+      <p  *ngIf="nota.id; else mensajeError"></p>
+      <ng-template #mensajeError>
+        <p class="error">Por favor, escribe un título</p>
+      </ng-template>
+    </div>
+
+    <div class="card-block">
+      {{nota.descripcion | euro}}
+      <button type="submit" class="btn btn-primary">Guardar</button>
+      <button type="submit" class="btn btn-danger" (click)="notas.splice(i,1)">Eliminar</button>
+    </div>
+  </div>
+</section>

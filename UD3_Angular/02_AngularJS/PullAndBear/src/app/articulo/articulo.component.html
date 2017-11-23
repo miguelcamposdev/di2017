@@ -1,0 +1,10 @@
+<tr>
+  <th scope="row">1</th>
+  <td><img [src]="articulo.foto" width="100px"></td>
+  <td><b>{{articulo.nombre}}</b><br/>Ref. {{articulo.ref}}</td>
+  <td><span style="background-color:{{articulo.color}};">&nbsp;</span></td>
+  <td>{{articulo.talla}}</td>
+  <td><button (click)="aumentar(articulo)">+</button><button (click)="disminuir(articulo)">-</button>{{articulo.cantidad}}</td>
+  <td><span class="rebajas" *ngIf="articulo.rebajado">{{articulo.importeRebajado}}</span><br/><span [ngClass]="{tachado:articulo.rebajado}">{{articulo.importe}}</span></td>
+  <td></td>
+</tr>
