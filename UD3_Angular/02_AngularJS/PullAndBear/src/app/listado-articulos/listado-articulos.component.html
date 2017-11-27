@@ -13,6 +13,8 @@
   </tr>
   </thead>
   <tbody>
-    <app-articulo *ngFor="let a of listaProductos" [articulo]="a"></app-articulo>
+  <tr *ngFor="let a of listaProductos" >
+    <app-articulo [articulo]="a"></app-articulo>
+  </tr>
   </tbody>
 </table>

@@ -1,0 +1,21 @@
+.card-footer {
+  border-top: 2px dotted #777777;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #555555;
+}
+
+.link-left {
+  float: left;
+}
+
+.link-right {
+  float: right;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-16 { font-size: 16px; }
+.material-icons.md-18 { font-size: 18px; }
+

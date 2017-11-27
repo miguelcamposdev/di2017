@@ -1,0 +1,25 @@
+<br/><br/>
+<div class="row">
+  <div class="col-md-12 mb-12">
+    <table class="table">
+      <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Color</th>
+        <th scope="col">Acciones</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let cat of listaCategorias">
+        <th scope="row">{{cat.id}}</th>
+        <td>{{cat.nombre}}</td>
+        <td><span class="circulo" [ngStyle]="{backgroundColor:cat.color}"></span></td>
+        <td>
+          <button class="btn btn-primary">Editar</button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

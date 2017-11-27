@@ -1,0 +1,12 @@
+<div class="card h-100" [ngStyle]="{backgroundColor:nota.categoria.color}">
+  <div class="card-body">
+    <h2 class="card-title">{{nota.titulo}}</h2>
+    <p class="card-text">{{nota.descripcion}}<br/>
+    <span class="categoria">{{nota.categoria.nombre}}</span>
+    </p>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="card-link link-left"><i class="material-icons md-16">mode_edit</i> Editar</a>
+    <a href="#" class="card-link link-right"><i class="material-icons md-16">delete</i> Eliminar</a>
+  </div>
+</div>

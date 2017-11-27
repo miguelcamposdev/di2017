@@ -1,0 +1,15 @@
+
+    <div class="card h-100">
+      <a href="#"><img class="card-img-top" [src]="articulo.foto" alt=""></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <a href="#">{{articulo.nombre}}</a>
+        </h4>
+        <h5><span class="rebajas" *ngIf="articulo.rebajado">{{articulo.importeRebajado}}</span> <span [ngClass]="{tachado:articulo.rebajado}">{{articulo.importe}}</span></h5>
+        <p class="card-text">Ref. {{articulo.ref}} <br/> Talla: {{articulo.talla}} <span style="background-color:{{articulo.color}};">&nbsp;</span></p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"><button (click)="disminuir(articulo)">-</button> {{articulo.cantidad}} <button (click)="aumentar(articulo)">+</button></small>
+      </div>
+    </div>
+
