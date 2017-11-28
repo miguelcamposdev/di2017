@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Nota} from '../models/Nota';
+import {NgbModal} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-nota-listado',
@@ -30,9 +31,12 @@ export class NotaListadoComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  constructor(private modalService: NgbModal) { }
 
   ngOnInit() {
   }
 
+  abrirModal(modalToOpen: any) {
+    this.modalService.open(modalToOpen, {size: 'lg'});
+  }
 }
