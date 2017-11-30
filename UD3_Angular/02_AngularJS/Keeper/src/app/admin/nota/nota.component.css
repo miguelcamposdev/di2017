@@ -1,0 +1,23 @@
+.categoria {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+a.link-r {
+  float: right;
+  color: #777777;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a.link-l {
+  float: left;
+  color: #777777;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.card-footer {
+  border-top: 2px dotted #777777;
+}

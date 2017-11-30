@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Categoria} from '../models/Categoria';
+import {CategoriasService} from '../servicios/categorias.service';
 
 @Component({
   selector: 'app-categoria-listado',
@@ -7,14 +8,16 @@ import {Categoria} from '../models/Categoria';
   styleUrls: ['./categoria-listado.component.css']
 })
 export class CategoriaListadoComponent implements OnInit {
-  listaCategorias: Array<Categoria> = [
-    {id: 1, nombre: 'Hobbies', color: '#F2B22A'},
-    {id: 2, nombre: 'Deberes', color: '#83D9FD'}
-  ];
+  listaCategorias: Array<Categoria>;
 
-  constructor() { }
+  constructor(private categoriaService: CategoriasService) { }
 
   ngOnInit() {
+    this.categoriaService.getCategorias().subscribe(
+      categorias => this.listaCategorias = categorias
+    );
   }
 
 }
+
+

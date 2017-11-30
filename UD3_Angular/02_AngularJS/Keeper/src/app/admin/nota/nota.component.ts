@@ -7,15 +7,20 @@ import {NgbModal} from '@ng-bootstrap/ng-bootstrap';
   templateUrl: './nota.component.html',
   styleUrls: ['./nota.component.css']
 })
-export class NotaComponent implements OnInit {
+export class ArticuloComponent implements OnInit {
   @Input() nota: Nota;
-
+  notaSeleccionada: Nota = null;
   constructor(private modalService: NgbModal) { }
 
   ngOnInit() {
   }
 
-  editar(modalToOpen: any) {
-    this.modalService.open(modalToOpen);
+  editar(nota: Nota, modal: any) {
+    this.notaSeleccionada = nota;
+    console.log('Click: ' + this.notaSeleccionada);
+    this.modalService.open(modal);
+  }
+
+  eliminar(nota: Nota) {
   }
 }

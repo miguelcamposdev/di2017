@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "keeper"
+    "name": "mi-primer-angular"
   },
   "apps": [
     {
@@ -19,7 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "./assets/bootstrap/css/bootstrap.css",
+        "./assets/bootstrap/css/bootstrap.min.css",
         "styles.css"
       ],
       "scripts": [],

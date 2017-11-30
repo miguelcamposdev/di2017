@@ -1,0 +1,43 @@
+<p><button (click)="mostrarModal(modalNuevaNota)">Nueva nota</button></p>
+
+<div class="row">
+
+  <div class="col-lg-4 col-md-6 mb-4" *ngFor="let n of listaNotas" >
+    <app-nota [nota]="n"></app-nota>
+
+  </div>
+
+</div>
+<!-- /.row -->
+
+
+<ng-template #modalNuevaNota let-c="close">
+  <div class="modal-header">
+    <h4 class="modal-title">Nueva nota</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form>
+      <div class="form-group">
+        <label for="recipient-name" class="col-form-label">Título: </label>
+        <input type="text" class="form-control" id="recipient-name" name="titulo" [(ngModel)]="nuevaNotaTitulo" />
+      </div>
+      <div class="form-group">
+        <label for="message-text" class="col-form-label">Descripción: </label>
+        <input class="form-control" id="message-text" name="descripcion" [(ngModel)]="nuevaNotaDescripcion" />
+      </div>
+      <div class="form-group">
+        <label for="message-cat" class="col-form-label">Categoria: </label>
+        <input class="form-control" id="message-cat" name="idcategoria" [(ngModel)]="idCategoria" />
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary" (click)="guardarNota()">Guardar</button>
+    <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Cerrar</button>
+  </div>
+</ng-template>
+
+

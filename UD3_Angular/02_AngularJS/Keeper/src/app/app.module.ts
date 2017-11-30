@@ -1,40 +1,41 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
 import { AppComponent } from './app.component';
-import { NotaListadoComponent } from './nota-listado/nota-listado.component';
-import { NotaComponent } from './nota/nota.component';
-import { CategoriaListadoComponent } from './categoria-listado/categoria-listado.component';
-import {Route, RouterModule} from '@angular/router';
-import { PaginaNoEncontradaComponent } from './pagina-no-encontrada/pagina-no-encontrada.component';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import {FormsModule} from '@angular/forms';
+import { ArticuloComponent } from './admin/nota/nota.component';
+import { NotaListadoComponent } from './admin/nota-listado/nota-listado.component';
+import { CategoriaListadoComponent } from './admin/categoria-listado/categoria-listado.component';
+import {RouterModule, Routes} from '@angular/router';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {NotasService} from './admin/servicios/notas.service';
+import {CategoriasService} from './admin/servicios/categorias.service';
 import {HttpClientModule} from '@angular/common/http';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
-const rutas: Route[] = [
+const routes: Routes = [
   {path: '', component: NotaListadoComponent},
-  {path: 'notas', component: NotaListadoComponent},
   {path: 'categorias', component: CategoriaListadoComponent},
-  {path: '**', component: PaginaNoEncontradaComponent}
+  {path: '**', component: NotaListadoComponent}
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
+    ArticuloComponent,
     NotaListadoComponent,
-    NotaComponent,
-    CategoriaListadoComponent,
-    PaginaNoEncontradaComponent
+    CategoriaListadoComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(rutas),
-    NgbModule.forRoot(),
+    RouterModule.forRoot(routes),
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule.forRoot(),
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [NotasService, CategoriasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

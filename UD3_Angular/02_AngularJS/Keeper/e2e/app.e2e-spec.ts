@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('keeper App', () => {
+describe('mi-primer-angular App', () => {
   let page: AppPage;
 
   beforeEach(() => {

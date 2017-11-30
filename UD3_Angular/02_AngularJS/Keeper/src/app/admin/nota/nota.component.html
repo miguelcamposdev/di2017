@@ -1,0 +1,41 @@
+
+    <div class="card h-100" [ngStyle]="{backgroundColor:nota.categoria.color}">
+      <div class="card-body">
+        <h4 class="card-title">
+          {{nota.titulo}}
+        </h4>
+        <p class="card-text">
+          {{nota.descripcion}}
+        </p>
+        <p><span class="categoria"><i class="material-icons md-12">local_offer </i>{{nota.categoria.nombre}}</span></p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">
+          <a href="#" (click)="editar(nota,modalEditarNota)" class="link-r"><i class="material-icons md-12">mode_edit</i> Editar</a>
+          <a href="#" (click)="eliminar(nota)" class="link-l"><i class="material-icons md-12">delete</i>Eliminar</a></small>
+      </div>
+    </div>
+
+    <ng-template #modalEditarNota let-c="close">
+      <div class="modal-header">
+        <h4 class="modal-title">Editar nota</h4>
+        <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Título: </label>
+            <input type="text" class="form-control" id="recipient-name" name="titulo" [(ngModel)]="notaSeleccionada.titulo" />
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Descripción: </label>
+            <textarea class="form-control" id="message-text" name="descripcion" [(ngModel)]="notaSeleccionada.descripcion"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Cerrar</button>
+      </div>
+    </ng-template>
