@@ -10,6 +10,7 @@ import {Route, RouterModule} from '@angular/router';
 import { PaginaNoEncontradaComponent } from './pagina-no-encontrada/pagina-no-encontrada.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 const rutas: Route[] = [
   {path: '', component: NotaListadoComponent},
@@ -30,7 +31,8 @@ const rutas: Route[] = [
     BrowserModule,
     RouterModule.forRoot(rutas),
     NgbModule.forRoot(),
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
