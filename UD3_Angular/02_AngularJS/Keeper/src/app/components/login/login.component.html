@@ -1,0 +1,17 @@
+<div class="container">
+
+  <form class="form-signin">
+    <h2 class="form-signin-heading">Keeper</h2>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input id="inputEmail" class="form-control" placeholder="Email address" autofocus="" type="email" name="email" [(ngModel)]="email">
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input id="inputPassword" class="form-control" placeholder="Password" type="password" name="password" [(ngModel)]="pass">
+    <div class="checkbox">
+      <label>
+        <input value="remember-me" type="checkbox"> Remember me
+      </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="login()">Entrar</button>
+  </form>
+
+</div> <!-- /container -->

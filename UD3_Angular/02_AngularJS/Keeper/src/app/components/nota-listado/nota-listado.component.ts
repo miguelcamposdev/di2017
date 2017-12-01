@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import {Nota} from '../models/Nota';
+import {Nota} from '../../models/Nota';
 import {NgbModal, NgbModalRef} from '@ng-bootstrap/ng-bootstrap';
-import {NotasService} from '../servicios/notas.service';
-import {CategoriasService} from '../servicios/categorias.service';
-import {Categoria} from '../models/Categoria';
+import {NotasService} from '../../services/notas.service';
+import {CategoriasService} from '../../services/categorias.service';
+import {Categoria} from '../../models/Categoria';
 import {FormControl, Validators} from '@angular/forms';
+import {AuthService} from '../../services/auth.service';
 
 @Component({
   selector: 'app-listado-articulos',
@@ -21,7 +22,7 @@ export class NotaListadoComponent implements OnInit {
   listaCategorias: Categoria[];
   control: FormControl = new FormControl('value', Validators.minLength(2));
 
-  constructor(private modalService: NgbModal, private notasService: NotasService, private categoriasService: CategoriasService) {
+  constructor(private modalService: NgbModal, private notasService: NotasService, private categoriasService: CategoriasService, private authService: AuthService) {
   }
 
   mostrarModal(modalContent: any) {
@@ -35,6 +36,8 @@ export class NotaListadoComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.authService.checkAuth();
+
     this.notasService.getNotas().subscribe(
       notas => this.listaNotas = notas
     );
@@ -44,4 +47,8 @@ export class NotaListadoComponent implements OnInit {
     );
   }
 
+  notaEliminada(nota: Nota) {
+    const i = this.listaNotas.indexOf(nota);
+    this.listaNotas.splice(i, 1);
+  }
 }
