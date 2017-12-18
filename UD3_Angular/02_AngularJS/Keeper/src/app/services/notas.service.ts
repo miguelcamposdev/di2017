@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import {Nota} from '../models/Nota';
-import 'rxjs/Rx';
-import {Observable} from 'rxjs/Observable';
+import { Observable } from 'rxjs/Observable';
 import {HttpClient, HttpEvent, HttpHeaders, HttpParams} from '@angular/common/http';
 import {AuthService} from './auth.service';
 

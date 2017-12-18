@@ -1,0 +1,10 @@
+<StackLayout>
+  <ListView [items]="equipos" (itemTap)="onItemTap($event)">
+    <ng-template let-item="item" let-i="index" let-odd="odd" let-even="even">
+      <StackLayout orientation="horizontal">
+        <Label [text]='"index: " + i'></Label>
+        <Label [text]='item.nombre'></Label>
+      </StackLayout>
+    </ng-template>
+  </ListView>
+</StackLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xhdpi/icon.png",
+        "source": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/src/main/res/drawable-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xhdpi/logo.png",
+        "source": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/src/main/res/drawable-xhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xhdpi/background.png",
+        "source": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/src/main/res/drawable-xhdpi/background.png"
+    }
+]

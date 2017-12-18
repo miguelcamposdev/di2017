@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">481621758135-dd2oirvvsnh5i12udn5jsf2mrqnmpse0.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fir-dam.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">481621758135</string>
+    <string name="google_api_key" translatable="false">AIzaSyAT7svT__qM1gStB4t6BbYJ49rjP3r4U4k</string>
+    <string name="google_app_id" translatable="false">1:481621758135:android:8660ad250db72d45</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAT7svT__qM1gStB4t6BbYJ49rjP3r4U4k</string>
+    <string name="google_storage_bucket" translatable="false">fir-dam.appspot.com</string>
+    <string name="project_id" translatable="false">fir-dam</string>
+</resources>

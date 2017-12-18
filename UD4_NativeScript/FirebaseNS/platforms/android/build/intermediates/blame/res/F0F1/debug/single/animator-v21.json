@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/miguelcampos/Desktop/FirebaseNS/platforms/android/build/intermediates/res/merged/F0F1/debug/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "/Users/miguelcampos/Desktop/FirebaseNS/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/animator-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseNS/platforms/android/build/intermediates/res/merged/F0F1/debug/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseNS/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/animator-v21/design_appbar_state_list_animator.xml"
+    }
+]

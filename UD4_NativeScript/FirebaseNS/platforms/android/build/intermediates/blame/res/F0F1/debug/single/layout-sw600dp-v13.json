@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/miguelcampos/Desktop/FirebaseNS/platforms/android/build/intermediates/res/merged/F0F1/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/miguelcampos/Desktop/FirebaseNS/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseNS/platforms/android/build/intermediates/res/merged/F0F1/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseNS/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    }
+]

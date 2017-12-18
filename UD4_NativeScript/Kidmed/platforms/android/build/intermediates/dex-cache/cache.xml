@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="89507701249388e1ed5ddcf8c41f4ce1be7831ef">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/guava-20.0_9b100119c513becfcd4db05fd05d9aff7399b06f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/firebase-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fe66404378d7791a232cc3331811b2ce402f44c7">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-firebase-release_f9f28a8495434f6fed8dbbd6115fab3c279cddb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-firestore/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc0d71e8828a145ca4aebde8f6897608070f8863">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-firestore-11.4.2_98b293459841eecdd5947b03c9bb079d2b96696f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5f519b8c692038a47ee404b6ea6b847f6402000c">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-common-11.4.2_eb5b81e0bda877f0d20cf98e073c349138456d0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-design-26.0.0-alpha1_3ecb5d2f53874568f2e5119ce9a5cbb5e2a360d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-ui-26.0.0-alpha1_8a11a3e9f6c5f273b21da9c43f4dc1554e390273.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-media-compat-26.0.0-alpha1_34eb7f18933c5062e97a70af1646209f7ae95803.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-26.0.0-alpha1_44a0fb4e3a67026802cabae2808c6ef3fde7618d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-animated-vector-drawable-26.0.0-alpha1_59a189d4be89d626ede96286356d9d17ce30128f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aebd345a61f563da0989cbd014479c8bf7bd77ab">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-customtabs-26.0.0-alpha1_d7ac97f5ba6124fe6a6a5fc269a5dffd7f621bde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6e6b94b72d7912a627fb1629c310b2bca9261f06">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-iid-11.4.2_55941c67b85ddd8948f677775c9c9c0310630563.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-widgets-release_ad5528f5cc41700cdd840ef85e21d863d1b87fad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-utils-26.0.0-alpha1_d4a3ad98136e7118ad1d394b85b863abf64a0796.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="52339832d252da4328c5ffcacbc205268346362a">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-auth-11.4.2_7d9ff2b597d42b98c7c2155441c2f02685c4acc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2d45b277afdf55bcfdc005c03c0c2f1733aaa1b0">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-base-11.4.2_dcc37048e3d83387460079230d2580e623681b2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-recyclerview-v7-26.0.0-alpha1_d9b88808e069299b2442a3966ae08d8d61149978.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/nativescript-optimized/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-nativescript-optimized_abc45c609c0fdf342678eaaf6ac3d2bec805c755.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="20d6aa9a18ea9833cd2bee95dff7cd303cdb80e4">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-impl-11.4.2_f10416def16fcccb3bdcaa6a4978577f1a3f76da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-transition-26.0.0-alpha1_6ebeed55b4275dbde7fef7cd7f6a8f47427c7e09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-cardview-v7-26.0.0-alpha1_0767027da5a0f912c8d1a532a6b096cfdd401db3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.2/20f6463eb19ac61960c5d91a094c2f4f0727dc2e/okhttp-2.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="20f6463eb19ac61960c5d91a094c2f4f0727dc2e">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/okhttp-2.7.2_78de8d19c39b86222bc4e001912be4a5402cfee0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-fragment-26.0.0-alpha1_1d49ca16a3af2dedf1d57afc3f8c59ce2cc88650.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-vector-drawable-26.0.0-alpha1_10cc5bf24ff5d813e2a77978dfafb4bf202b5a49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-compat-26.0.0-alpha1_a2f6af2c8293ead1c4fe327eae2618e1101cbb99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-v4-26.0.0-alpha1_3bab888f76658cf743450784c940712e3ee6b8b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="643a2fd3bd06c44be5d20efc0ba4ca02036d2c8a">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-tasks-11.4.2_ec5ac7c901758a7a812956d792bc17c5b825cbcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8040d53ecd4bd895360eafdc25e1c1cc9479e6aa">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-basement-11.4.2_f9c7a03d74739f2d18b58bd361037cc383e6325e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-appcompat-v7-26.0.0-alpha1_f9001123d24352ee50adc7f3ff73d6ef856be8cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/okio-1.6.0_597411b1a5e73dfefc7fcbd5515d7622de566fa5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/gson-2.8.2_f4427fe4cd4e09c05353907a76e67bec3f14d75b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bed98ea7af8c5c4202820875e856dd3eb296e22d">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-11.4.2_28ab65b3b2df44df389c60479144f984f231cc9e.jar" />
+    </item>
+
+</items>

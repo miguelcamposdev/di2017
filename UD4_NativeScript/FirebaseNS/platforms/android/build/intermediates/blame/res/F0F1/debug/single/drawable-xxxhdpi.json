@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseNS/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/background.png",
+        "source": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseNS/platforms/android/src/main/res/drawable-xxxhdpi/background.png"
+    },
+    {
+        "merged": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseNS/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/icon.png",
+        "source": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseNS/platforms/android/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/miguelcampos/Desktop/FirebaseNS/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/icon.png",
+        "source": "/Users/miguelcampos/Desktop/FirebaseNS/platforms/android/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseNS/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/logo.png",
+        "source": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseNS/platforms/android/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/miguelcampos/Desktop/FirebaseNS/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/logo.png",
+        "source": "/Users/miguelcampos/Desktop/FirebaseNS/platforms/android/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/miguelcampos/Desktop/FirebaseNS/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-xxxhdpi/background.png",
+        "source": "/Users/miguelcampos/Desktop/FirebaseNS/platforms/android/src/main/res/drawable-xxxhdpi/background.png"
+    }
+]

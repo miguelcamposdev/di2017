@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi/background.png",
+        "source": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/res/drawable-ldpi/background.png"
+    },
+    {
+        "merged": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi/logo.png",
+        "source": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/res/drawable-ldpi/logo.png"
+    },
+    {
+        "merged": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi/icon.png",
+        "source": "/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/res/drawable-ldpi/icon.png"
+    }
+]

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-fragment-26.0.0-alpha1_72004cd629b8b4d1606b99fc274cc938004f3685.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="89507701249388e1ed5ddcf8c41f4ce1be7831ef">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/guava-20.0_9b100119c513becfcd4db05fd05d9aff7399b06f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2d45b277afdf55bcfdc005c03c0c2f1733aaa1b0">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-base-11.4.2_9145ea6d5717dae357cb3f716fb0e696018f00f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-appcompat-v7-26.0.0-alpha1_10f5dcfcb60da9e18a47badd2ce5430bd42b9d66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aebd345a61f563da0989cbd014479c8bf7bd77ab">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-customtabs-26.0.0-alpha1_37cde5f5664fa8f0a7b639b356a07c1a623472f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6e6b94b72d7912a627fb1629c310b2bca9261f06">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-iid-11.4.2_cf13a40de73e5e2d6235ae36b7a9d00b285e4156.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/support-annotations-26.0.0-alpha1_44a0fb4e3a67026802cabae2808c6ef3fde7618d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c2cadea4d8a1a5b5c4e5f0dc99a99a43774f5e6e">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-database-connection-11.4.2_1e453a55ba74d83b144ee38073e7cbb1464172e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/firebase-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fe66404378d7791a232cc3331811b2ce402f44c7">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-firebase-release_4bf11da6249ef3914fd08f69880611915cf87fd8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-utils-26.0.0-alpha1_10b05e1d99d79d238af5d9987e5fba1251dc7efd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="20d6aa9a18ea9833cd2bee95dff7cd303cdb80e4">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-impl-11.4.2_a1cfb3a433eb53548b0cf58fb128fc57c8eb7282.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8040d53ecd4bd895360eafdc25e1c1cc9479e6aa">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-basement-11.4.2_663fe01153d7eb07cc868832c7c9ae72f09b7517.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-firestore/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc0d71e8828a145ca4aebde8f6897608070f8863">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-firestore-11.4.2_a33f69225744df7084a65272a020cb7067c75034.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-compat-26.0.0-alpha1_80383fb8938f590f3789949bdc7af6c0c49a7062.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5f519b8c692038a47ee404b6ea6b847f6402000c">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-common-11.4.2_ba6eac9f5e4a590c1b998601a404c8330920422f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.2/20f6463eb19ac61960c5d91a094c2f4f0727dc2e/okhttp-2.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="20f6463eb19ac61960c5d91a094c2f4f0727dc2e">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/okhttp-2.7.2_78de8d19c39b86222bc4e001912be4a5402cfee0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-cardview-v7-26.0.0-alpha1_752aa2201ce7f29de6702460133713c5307d69cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="52339832d252da4328c5ffcacbc205268346362a">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-auth-11.4.2_99e38b0324843a407f5cb1ca7c8c1b71e489fd6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-animated-vector-drawable-26.0.0-alpha1_61cac2f0eafa04e83ecc3cf27c53da97a6179920.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-recyclerview-v7-26.0.0-alpha1_d183fe7fa0904fdd290276f424d76ab51173d97e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-widgets-release_0375ed7ad94d58f9190f1da8915cb4f7c4cd4a5d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-transition-26.0.0-alpha1_5d311c7c4dff69ec6eb3453868bd460c8d3dedd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="73c80b05a390e8319d1ef7a236739cd610c8f774">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-database-11.4.2_2e1e3953ca673cf70b0956c8537fe42033dee409.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/nativescript-optimized/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-nativescript-optimized_d435d549f0ffba693b74f61feab094ad4d602d33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-v4-26.0.0-alpha1_e34e522d9ce41c32d092a0468ecadb7dc99ae449.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bed98ea7af8c5c4202820875e856dd3eb296e22d">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.firebase-firebase-analytics-11.4.2_aea11eb68092f72bc12fe857a43259646d800549.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-design-26.0.0-alpha1_59a40227d6e022544ee6d17ff85346c5bd31982b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-media-compat-26.0.0-alpha1_b93c6208863915784a4231d3ca22bb69cb294f3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-vector-drawable-26.0.0-alpha1_40a64437f5e9bbb359ff5aa2173ce616a18fea65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/okio-1.6.0_597411b1a5e73dfefc7fcbd5515d7622de566fa5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-core-ui-26.0.0-alpha1_f5db7fe7065c65aa9354179179a54e07d0086fa9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/gson-2.8.2_f4427fe4cd4e09c05353907a76e67bec3f14d75b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="643a2fd3bd06c44be5d20efc0ba4ca02036d2c8a">
+        <dex dex="/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseEjemploClase/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.google.android.gms-play-services-tasks-11.4.2_0da5e59ff137327a097d73f77b5caa052533919f.jar" />
+    </item>
+
+</items>

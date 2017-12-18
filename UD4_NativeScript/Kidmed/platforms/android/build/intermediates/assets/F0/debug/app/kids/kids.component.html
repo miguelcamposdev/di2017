@@ -1,0 +1,12 @@
+<ActionBar title="Niños"></ActionBar>
+
+<StackLayout>
+  <ListView [items]="myItems" (itemTap)="onItemTap($event)">
+    <ng-template let-item="item" let-i="index" let-odd="odd" let-even="even">
+      <StackLayout [class.odd]="odd" [class.even]="even">
+        <Label [text]='"index: " + i'></Label>
+        <Label [text]='"[" + item.id +"] " + item.name'></Label>
+      </StackLayout>
+    </ng-template>
+  </ListView>
+</StackLayout>

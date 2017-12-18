@@ -1,0 +1,4 @@
+#Sat Dec 16 18:48:53 CET 2017
+base.0=/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseNS/platforms/android/build/intermediates/transforms/dex/F0F1/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/FirebaseNS/platforms/android/build/intermediates/transforms/dex/F0F1/debug/folders/1000/1f/main/classes.dex

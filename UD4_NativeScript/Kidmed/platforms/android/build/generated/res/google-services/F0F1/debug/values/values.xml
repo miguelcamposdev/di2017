@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">813103604059-5djco3and02cbc6pd81r8qj4749oa1cb.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://apirest-miguelcr.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">813103604059</string>
+    <string name="google_api_key" translatable="false">AIzaSyAbSh3O26bLP49mKwUrlX008E_L-abqqvM</string>
+    <string name="google_app_id" translatable="false">1:813103604059:android:8a57036272a7aa7b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAbSh3O26bLP49mKwUrlX008E_L-abqqvM</string>
+    <string name="project_id" translatable="false">apirest-miguelcr</string>
+</resources>
