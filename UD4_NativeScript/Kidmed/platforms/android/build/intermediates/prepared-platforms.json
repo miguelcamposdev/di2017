@@ -9,6 +9,7 @@
     "@angular/router": true,
     "nativescript-angular": true,
     "nativescript-plugin-firebase": true,
+    "nativescript-pro-ui": true,
     "nativescript-theme-core": true,
     "reflect-metadata": true,
     "rxjs": true,

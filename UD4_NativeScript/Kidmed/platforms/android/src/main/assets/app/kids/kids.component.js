@@ -43,7 +43,7 @@ var KidsComponent = (function () {
         });
     };
     KidsComponent.prototype.showNewKidDialog = function () {
-        console.log('open modal');
+        // console.log('open modal');
         var options = {
             viewContainerRef: this.viewContainerRef
         };
@@ -52,7 +52,8 @@ var KidsComponent = (function () {
             for (var _i = 0; _i < arguments.length; _i++) {
                 result[_i] = arguments[_i];
             }
-            return console.log("Resultado: " + result[0] + result[1]);
+            console.log("Resultado: " + result[0] + result[1]);
+            // this.kids.push(observableFromObject(new Kid("1", result[0], result[1])));
         });
     };
     KidsComponent = __decorate([

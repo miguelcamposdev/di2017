@@ -51,13 +51,15 @@ export class KidsComponent implements OnInit {
 }
 
     showNewKidDialog() {
-        console.log('open modal');
+        // console.log('open modal');
         const options: ModalDialogOptions = {
             viewContainerRef: this.viewContainerRef
         };
 
         this.modalService.showModal(DialogkidComponent, options).then(
-        (...result) => console.log("Resultado: " + result[0] + result[1])
-        );
+        (...result) => {
+            console.log("Resultado: " + result[0] + result[1]);
+            // this.kids.push(observableFromObject(new Kid("1", result[0], result[1])));
+        });
     }
 }

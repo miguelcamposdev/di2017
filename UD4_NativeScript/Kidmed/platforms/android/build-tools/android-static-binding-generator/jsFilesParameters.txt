@@ -2,6 +2,7 @@
 /Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/app.component.js
 /Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/app.module.js
 /Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/main.js
+/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/dialogkid/dialogkid.component.js
 /Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/kids/kids.component.js
 /Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/models/Kid.js
 /Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/services/kids.service.js
@@ -95,6 +96,7 @@
 /Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/tns_modules/nativescript-plugin-firebase/scripts/entitlements-after-prepare.js
 /Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/tns_modules/nativescript-plugin-firebase/scripts/entitlements-before-prepare.js
 /Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/tns_modules/nativescript-plugin-firebase/scripts/postinstall.js
+/Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/tns_modules/nativescript-pro-ui/scripts/eula-prompt.js
 /Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/bundle-entry-points.js
 /Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/application/application-common.js
 /Users/miguelcampos/Documents/workspace/di2017/UD4_NativeScript/Kidmed/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/application/application.js

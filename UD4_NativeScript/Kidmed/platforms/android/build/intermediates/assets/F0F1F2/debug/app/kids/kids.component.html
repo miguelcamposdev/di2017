@@ -1,0 +1,17 @@
+<ActionBar title="Niños">
+  <ActionItem (tap)="showNewKidDialog()"
+              ios.systemIcon="9" ios.position="left"
+              android.systemIcon="ic_menu_add"
+              android.position="actionBar"></ActionItem>
+</ActionBar>
+
+<StackLayout>
+  <ListView [items]="kids" (itemTap)="onItemTap($event)">
+    <ng-template let-item="item" let-i="index" let-odd="odd" let-even="even">
+      <StackLayout [class.odd]="odd" [class.even]="even">
+        <Label [text]='"index: " + i'></Label>
+        <Label [text]='"[" + item.id +"] " + item.nombre'></Label>
+      </StackLayout>
+    </ng-template>
+  </ListView>
+</StackLayout>
