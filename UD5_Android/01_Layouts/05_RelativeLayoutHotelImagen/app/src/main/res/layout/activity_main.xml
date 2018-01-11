@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.miguelcr.a04_relativelayouthotel.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewHotelName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Langham Palace, New York,"
+        android:textColor="@color/colorNombreHotel"
+        android:textSize="20sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBarHotel"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewHotelName"
+        android:layout_below="@+id/textViewHotelName"
+        android:layout_marginTop="12dp"
+        android:numStars="5"
+        android:rating="5"
+        android:stepSize="1" />
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ratingBarHotel"
+        android:layout_below="@+id/ratingBarHotel"
+        android:layout_marginTop="13dp"
+        android:text="$399"
+        android:textColor="@color/colorSecundario"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageViewExtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewPrice"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/ratingBarHotel"
+        app:srcCompat="@drawable/ic_local_offer_red_24dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_alignTop="@+id/imageViewExtra"
+        android:layout_alignBottom="@+id/imageViewExtra"
+        android:layout_toEndOf="@+id/imageViewExtra"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Mobile exclusive"
+        android:textColor="@color/colorSecundario" />
+
+    <TextView
+        android:id="@+id/textViewOldPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewPrice"
+        android:layout_below="@+id/textViewPrice"
+        android:layout_marginTop="11dp"
+        android:text="$665"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewOldPriceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewOldPrice"
+        android:layout_alignTop="@+id/textViewOldPrice"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/textViewOldPrice"
+        android:gravity="center_vertical"
+        android:text="nightly price" />
+
+    <ImageView
+        android:id="@+id/imageViewComments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewOldPrice"
+        android:layout_below="@+id/textViewOldPrice"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/ic_comment_black_24dp" />
+
+    <TextView
+        android:id="@+id/textViewCommentsRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageViewComments"
+        android:layout_alignTop="@+id/imageViewComments"
+        android:layout_toEndOf="@+id/imageViewComments"
+        android:gravity="center_vertical"
+        android:text="4.7 / 5 Outstanding"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewHotel"
+        android:layout_marginStart="5dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textViewHotelName"
+        app:srcCompat="@drawable/ic_hotel" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageViewHotel"
+        android:layout_alignEnd="@+id/imageViewHotel"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        app:srcCompat="@drawable/ic_check_late" />
+</RelativeLayout>

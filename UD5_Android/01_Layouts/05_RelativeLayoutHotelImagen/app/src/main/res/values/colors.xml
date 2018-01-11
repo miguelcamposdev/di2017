@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#EA4B3B</color>
+    <color name="colorNombreHotel">#659bcb</color>
+    <color name="colorSecundario">#9D0A1E</color>
+</resources>
