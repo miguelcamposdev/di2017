@@ -39,13 +39,11 @@ public class MainActivity extends AppCompatActivity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         // Cargar el Fragmento por defecto!!!
-        Fragment f = AlumnoItemFragment.newInstance(2);
+        Fragment f = new AlumnoItemFragment();
 
         getSupportFragmentManager().beginTransaction()
                 .add(R.id.container,f)
                 .commit();
-
-
 
     }
 

@@ -1,4 +1,4 @@
-package com.miguelcr.a06_fragmentlist;
+package com.miguelcr.a07_restaurantlistfragment;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,14 +10,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class AlumnoItemFragment extends Fragment {
-    List<AlumnoItem> alumnoItemList;
+public class RestaurantFragment extends Fragment {
 
+    // TODO: Customize parameters
+    private int mColumnCount = 1;
+    List<Restaurant> restaurantList;
 
-    public AlumnoItemFragment() {
+    /**
+     * Mandatory empty constructor for the fragment manager to instantiate the
+     * fragment (e.g. upon screen orientation changes).
+     */
+    public RestaurantFragment() {
     }
 
     @Override
@@ -29,24 +34,20 @@ public class AlumnoItemFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_alumnoitem_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_restaurant_list, container, false);
 
         // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
             RecyclerView recyclerView = (RecyclerView) view;
-
-            recyclerView.setLayoutManager(new LinearLayoutManager(context));
-
-            alumnoItemList = new ArrayList<>();
-            alumnoItemList.add(new AlumnoItem("","Tejero",3));
-            alumnoItemList.add(new AlumnoItem("","Jesús",0));
-            alumnoItemList.add(new AlumnoItem("","Juanjo",5));
-            alumnoItemList.add(new AlumnoItem("","Juanfran",0));
-            recyclerView.setAdapter(new MyAlumnoItemRecyclerViewAdapter(alumnoItemList));
+            if (mColumnCount <= 1) {
+                recyclerView.setLayoutManager(new LinearLayoutManager(context));
+            } else {
+                recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
+            }
+            recyclerView.setAdapter(new MyRestaurantRecyclerViewAdapter(restaurantList));
         }
         return view;
     }
-
 
 }
