@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class RestaurantFragment extends Fragment {
@@ -17,6 +18,7 @@ public class RestaurantFragment extends Fragment {
     // TODO: Customize parameters
     private int mColumnCount = 1;
     List<Restaurant> restaurantList;
+    MyRestaurantRecyclerViewAdapter adapter;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -36,6 +38,11 @@ public class RestaurantFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_restaurant_list, container, false);
 
+        restaurantList = new ArrayList<>();
+        restaurantList.add(new Restaurant("Goiko Grill",5,"https://www.goikogrill.com/wp-content/uploads/2017/01/GOIKO_GRILL_WEB-2.jpg","Avda. República Argentina, 35 bajo"));
+        restaurantList.add(new Restaurant("Cibeles",0,"https://media-cdn.tripadvisor.com/media/photo-s/0e/7f/0d/47/flamenquin-casero.jpg","Pasaje Esperanza Triana"));
+        restaurantList.add(new Restaurant("TGB",3,"https://inversorglobal.es/wp-content/uploads/2015/03/TGB.jpg","Plaza Nueva, s/n"));
+
         // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
@@ -45,7 +52,8 @@ public class RestaurantFragment extends Fragment {
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            recyclerView.setAdapter(new MyRestaurantRecyclerViewAdapter(restaurantList));
+            adapter = new MyRestaurantRecyclerViewAdapter(getActivity(), restaurantList);
+            recyclerView.setAdapter(adapter);
         }
         return view;
     }
