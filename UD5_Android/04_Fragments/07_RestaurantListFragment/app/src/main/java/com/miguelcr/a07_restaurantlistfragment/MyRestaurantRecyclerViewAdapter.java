@@ -42,7 +42,7 @@ public class MyRestaurantRecyclerViewAdapter extends RecyclerView.Adapter<MyRest
         // Seteamos la imagen en el componente ImageView
         Picasso.with(ctx)
                 .load(holder.mItem.getUrlPhoto())
-                .resize(500,150)
+                .resize(600,150)
                 .centerCrop()
                 .into(holder.imageViewPhoto);
 
