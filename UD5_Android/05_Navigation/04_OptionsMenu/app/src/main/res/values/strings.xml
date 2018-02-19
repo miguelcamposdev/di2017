@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">04_OptionsMenu</string>
+    <string name="dialog_compartir_mensaje">¿Desea compartir el contenido con otro usuario?</string>
+    <string name="dialog_compartir_titulo">Compartir contenido</string>
+    <string name="dialog_compartir_ok">Compartir</string>
+    <string name="dialog_compartir_cancel">Cancelar</string>
+</resources>
