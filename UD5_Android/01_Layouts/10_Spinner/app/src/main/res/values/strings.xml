@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">10_Spinner</string>
+    <string name="checkbox_familia">¿Te llevas bien con tu familia?</string>
+    <string name="checkbox_amigos">¿Tienes amigos ni ná?</string>
+    <string-array name="categorias_array">
+        <item>Amigos</item>
+        <item>Colegio</item>
+        <item>Familia</item>
+    </string-array>
+
+</resources>
